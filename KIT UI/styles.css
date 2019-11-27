@@ -1,0 +1,403 @@
+
+/************************/
+/* 	    BUTTONS       */
+/************************/
+
+
+/* ------------------    NORMALS BUTTONS -------------------*/
+
+
+.n-primary, .n-warning, .n-info, .n-sucess, .n-danger {
+		color: white;
+		padding: 12px 52px;
+		font-size: 16px;
+		border-radius: 12px;
+}
+
+.n-primary {
+	background-color: #1A6BA5;
+	margin-left: 25px;
+
+}
+.n-primary:hover {
+  background-color: #4254BD; 
+  margin-left: 25px;
+}
+
+.n-warning {
+	background-color: #FF6246;
+}
+
+.n-danger {
+	background-color:#B33939;
+}
+
+.n-info {
+	background-color: #4567FF;
+}
+
+
+.n-sucess {
+	background-color:  #73CC23;
+}
+
+
+/* ------------------     OUTLINE BUTTONS -------------------*/
+
+
+.o-primary, .o-warning, .o-info, .o-sucess, .o-danger {
+		padding: 12px 52px;
+		font-size: 16px;
+		border-radius: 12px;
+}
+
+.o-primary {
+	color: #1A6BA5;
+	border: 2px solid #1A6BA5;
+}
+
+
+.o-warning {
+	color: #FF6246;
+	border: 2px solid #FF6246;
+}
+
+
+.o-danger {
+	color:#B33939;
+	border: 2px solid #B33939;
+}
+
+
+.o-info {
+	color: #4567FF;
+	border: 2px solid #4567FF;
+}
+
+
+.o-sucess {
+	color:  #73CC23;
+	border: 2px solid #73CC23;
+}
+
+
+/* ------------------    SMALL BUTTONS -------------------*/
+
+.sm-primary, .sm-warning, .sm-info, .sm-sucess, .sm-danger {
+		color: white;
+		padding: 9px 42px;
+		font-size: 12px;
+		border-radius: 12px;
+}
+
+
+.sm-primary {
+	background-color:#1A6BA5;
+}
+.sm-primary:hover {
+  background-color: #4254BD; 
+}
+
+.sm-warning {
+	background-color: #FF6246;
+}
+
+.sm-danger {
+	background-color:#B33939;
+}
+
+.sm-info {
+	background-color: #4567FF;
+}
+
+
+.sm-sucess {
+	background-color:  #73CC23;
+}
+
+/* ------------------    LARGE BUTTONS -------------------*/
+
+
+.lg-primary, .lg-warning, .lg-info, .lg-sucess, .lg-danger {
+		color: white;
+		padding: 14px 62px;
+		font-size: 22px;
+		border-radius: 12px;
+}
+
+
+.lg-primary {
+	background-color: #1A6BA5;
+}
+.lg-primary:hover {
+  background-color: #4254BD; 
+}
+
+.lg-warning {
+	background-color: #FF6246;
+}
+
+.lg-danger {
+	background-color:#B33939;
+}
+
+.lg-info {
+	background-color: #4567FF;
+}
+
+
+.lg-sucess {
+	background-color:  #73CC23;
+}
+
+
+
+
+/************************/
+/* 	    BASICS ELEMENTS  */
+/************************/
+
+
+
+a:link {
+  text-decoration: none;
+   font-family: 'Roboto', sans-serif; 
+
+}
+
+table {
+  background-color: #F8FAFE;
+}
+
+
+
+body {	
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 25px;
+}
+
+h1{
+ color: #3B3940;
+}
+
+
+h2, h3, h4, h5, h6{
+ color: #57555E;
+ font-family: 'PT Sans', sans-serif;
+
+}
+
+p, lead, blockquote, ol, ul, li, br, a, option{
+ color: #7C7A87;
+ font-family: 'Roboto', sans-serif; 
+}
+
+
+
+
+/************************/
+/* 	   FORMS  */
+/************************/
+
+
+
+/*----------------Input classiques------------------*/
+
+input[type=text] {
+  width: 70%;
+  border: 1px solid #E3E5E8;
+  border-radius: 4px;
+  height: 30px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: #F8FAFE;
+  resize: none;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/*----------------Select et options------------------*/
+
+
+select {
+  width: 70%;
+  height: 30px;
+  padding: 12px 20px;
+  border: 1px solid #E3E5E8;
+  border-radius: 4px;
+  background-color: #F8FAFE;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/*----------------Texte area------------------*/
+
+
+
+textarea {
+  width: 70%;
+  height: 30px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #E3E5E8;
+  border-radius: 4px;
+  background-color: #F8FAFE;
+ resize: none;
+ font-family: 'PT Sans', sans-serif;
+}
+
+/*----------------Radio button ------------------*/
+
+input[type=radio] {
+
+  background-color: #E3E5E8;
+  border-radius: 150%;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
+  /*----------------Checkboxes ------------------*/
+
+
+/* Customize the label (the container) */
+.container {
+ font-family: 'PT Sans', sans-serif;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #73CC23;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #73CC23;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 150%;
+  background: white;
+}
+
+
+/************************/
+/* 		 CARDS 			*/
+/************************/
+
+
+.card{
+
+border: 1px solid #F8FAFE;
+background-color: #F8FAFE;
+width: 180px;
+height:420px;
+
+}
+
+.card-text, .card-title {
+
+margin-left: 25px;
+font-family: 'Roboto', sans-serif; 
+}
+
+.card-img-top {
+
+height: 180px;
+width: 320px;
+}
+
+/************************/
+/* 		 LISTS			*/
+/************************/
+
+
+.list-group-1, .list-group-itemlist-group-item-1 {
+
+border: 1px solid #E3E5E8;
+background-color: #F8FAFE;
+width: 480px;
+height:220px;
+
+}
+
+
+
+.list-group-2, .list-group-itemlist-group-item-2 {
+
+border: 1px solid #1A6BA5;
+background-color: #1A6BA5;
+width: 480px;
+height:220px;
+
+}
+
+.flex-justify-content-between 
+{
+justify-content: space-between;
+}
+
+.list-text-1{
+margin-left: 25px;
+margin-right: 25px;
+
+
+}
+
+.list-text-2{
+margin-left: 25px;
+margin-right: 25px;
+color: white;
+
+
+}
+
+
